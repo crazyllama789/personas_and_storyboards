@@ -1,0 +1,117 @@
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.navbar-custom {
+    background-color: #dbf0ff
+    ;
+}
+.font-style {
+    font-family: Georgia, serif;
+  }
+/* dekko-regular - latin */
+@font-face {
+    font-family: 'Dekko';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dekko'),
+         url('./fonts/dekko-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/dekko-v19-latin-regular.woff') format('woff'), /* Modern Browsers */
+  }
+  /* indie-flower-regular - latin */
+@font-face {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/indie-flower-v17-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/indie-flower-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/indie-flower-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/indie-flower-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/indie-flower-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/indie-flower-v17-latin-regular.svg#IndieFlower') format('svg'); /* Legacy iOS */
+  }
+  /* bubblegum-sans-regular - latin */
+@font-face {
+    font-family: 'Bubblegum Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/bubblegum-sans-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/bubblegum-sans-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/bubblegum-sans-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/bubblegum-sans-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/bubblegum-sans-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/bubblegum-sans-v16-latin-regular.svg#BubblegumSans') format('svg'); /* Legacy iOS */
+  }
+
+nav{
+    font-family: "Bubblegum Sans", cursive;
+    font-size: x-large;
+    color: #a9d9b1
+}
+
+h1, 
+h2, 
+h3, 
+h4{
+    font-family:"Bubblegum Sans", cursive;
+    text-align: center;
+    color: #a9d9b1;
+}
+
+p,
+body{
+    text-align: center;
+    font-family:"Bubblegum Sans", cursive;
+    font-size: large;
+    color: #8F9AA5;
+}
+
+.container {
+    padding: 10px;
+    width: 45em;
+  }
+.container3 {
+    padding: 10px;
+    width: 25em;
+}
+.container2 {
+padding: 10px;
+width: 30em;
+}
+
+.box{
+    background-color:  #ECDCFC;
+    padding: 10px;
+    width: 45em;
+    font-weight: bold;
+}
+
+.button{
+    background-color: Transparent;
+    border: none;
+}
+.leftpane {
+    background-color:  #F9F9F9;
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.middlepane {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.rightpane {
+  width: 25%;
+  height: 90%;
+  position: relative;
+  background-color:  #F9F9F9;
+  float: right;
+  border-collapse: collapse;
+}
